@@ -1,9 +1,11 @@
 import { Button } from "@mui/material";
+import React, { useState } from "react";
+
 
 export default function Home() {
   return (
     <div className="App">
-      <h2>Bank Shopper</h2>
+      <h2>Hello World</h2>
       <img src="./Images/pic.png"></img>
       <p>
         The goal of the application is to combine banking and ecommerce into one

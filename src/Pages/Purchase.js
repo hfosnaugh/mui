@@ -1,4 +1,6 @@
-export default function Purchae() {
+import React, { useState } from "react";
+
+export default function Purchase() {
   return (
     <div className="App">
       <img src="./Images/pic.png"></img>

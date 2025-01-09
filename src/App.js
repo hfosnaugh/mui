@@ -1,6 +1,6 @@
 import NavBar from "./Navbar";
-import Budget from "./Pages/Budget";
 import Home from "./Pages/Home";
+import Budget from "./Pages/Budget";
 import Purchase from "./Pages/Purchase";
 import Sell from "./Pages/Sell";
 import Login from "./Pages/Login";
@@ -12,6 +12,7 @@ import AddBankAccount from "./Pages/AddBankAccount";
 import BuyNow from "./Pages/BuyNow";
 import Bank from "./Pages/Bank";
 import BankTransaction from "./Pages/BankTransaction";
+import React, { useState } from "react";
 
 function App() {
   let component;
@@ -56,6 +57,7 @@ function App() {
         component = <BankTransaction />;
         break;
     default:
+      //find way to make default page Home
       console.log("Sucess");
   }
   return (
